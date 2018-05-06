@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: ja821f4uHpm3LCalfl9PC08YT7X4EvKeOZ+y2ln9pHekvGZnNfTYv+HsyP0mAn9b2MlwyhU50WIOaymEAA9DRo8Wt2K+CcSxrnMvBhRHAvq3e1W2px1RHh5yB18c2plNWu8ecXkN3rOovWXnAUF+GRRO5JsHrfw8Hyb9czdtMchsiToMzJQ4DMyMNI0FI/n7JSZSR5cBSNUt8gEhgKXTi1y5TH+IAh0/R/CVOjloDaTktE3u7gl+HVhqqxyUMv4x1iHnDKwm7NQPxPH1jr4LeDByphAn/hALK+JbmO+8Ysl6ugo6QGef3Hqu6rS8t1/R7vZQZ4DV4HLQkXCalxaFl6mY/BwNpfasOG6mB4XYpNEGCqJyuZDhgrVbEoIEPL4UGqajUhvmHmR75AnNsdHJJksaPxpvmSGiCwYu1B2u+mmigFBvCCtFSOiniLDjBhGXdfv57pkEShFZE95op1TFxt1Ys9yuDIrWvwJZQLWA0H9B6ZcM2c3YmKYpr3HDCCBEFuj+7fndB2wTwhvnAg64DKr3fzEA9mAqeMW7vp217H9xnT2GYo9q73Z8kN+cM5Kb5QN4BLZYqfEA+KwgYjIsEYWsmAVk2fTJJt+6JLiFj6IsLl1v5aKDZSTw3tY0qIfz5d6udKblyLoAbnBG/ifrjhSaTC8+saEBgSlYSiB5+eA=
+  app: still-dawn-11881
+  on:
+    repo: amandareilly/blog-api-add-tests
